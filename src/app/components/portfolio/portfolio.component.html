@@ -1,0 +1,22 @@
+<!-- Portfolio Section-->
+<section class="page-section portfolio" id="portfolio">
+    <div class="container">
+        <!-- Portfolio Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-angle-double-down"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Portfolio Grid Items-->
+        <div class="row justify-content-center">
+            <app-portfolio-item *ngFor="let pfolio of portfolio_object" [pfolio]="pfolio"
+                class="col-md-6 col-lg-4 mb-5"></app-portfolio-item>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Modal-->
+<app-portfolio-detail *ngFor="let pfolio of portfolio_object" [pfolio]="pfolio" class="portfolio-modal modal fade"
+    [id]="pfolio.id" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true"></app-portfolio-detail>
