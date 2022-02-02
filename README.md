@@ -1,9 +1,11 @@
 # Portfolio
 
-This is an Angular 13 Portfolio project img ![ezcv logo](https://github.com/codebangla/portfolio/blob/master/src/assets/img/portfolio/romy-portfolio.png)
+This is an Angular 13 Portfolio project to showcase my recent Angular and ASP.NET Core applications.
+ img ![romy logo](https://github.com/codebangla/portfolio/blob/master/src/assets/img/portfolio/romy-portfolio.png)
 
-## Development server
+## How to run this project
 
-Run `ng serve -o` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Clone the repository and then run `npm-install` .
+Run `ng serve -o` for a dev server. Navigate to `http://localhost:4200/`.
 
 
