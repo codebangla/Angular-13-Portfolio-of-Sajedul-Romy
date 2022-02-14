@@ -1,6 +1,6 @@
 # Portfolio
 
-This is an Angular 13 Portfolio project to showcase my recent Angular and ASP.NET Core applications.
+This is an Angular 13 Portfolio project to showcase my recent Angular and ASP.NET Core applications and my past Winform and WPF projects.
 
 ![romy logo](https://github.com/codebangla/portfolio/blob/master/src/assets/img/portfolio/romy-portfolio.png)
 
