@@ -2,6 +2,10 @@
 
 This is an Angular 13 Portfolio project to showcase my recent Angular and ASP.NET Core applications.
 
+# Live URL
+
+https://demo.codebangla.com
+
 ![romy logo](https://github.com/codebangla/portfolio/blob/master/src/assets/img/portfolio/romy-portfolio.png)
 
 ## How to run this project
